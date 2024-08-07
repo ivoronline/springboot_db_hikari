@@ -13,10 +13,10 @@ public class MyController {
   @Autowired PersonRepository personRepository;
 
   //================================================================
-  // FIND PERSON BY ID
+  // HELLO
   //================================================================
-  @RequestMapping("FindPersonById")
-  Person findPersonById() {
+  @RequestMapping("hello")
+  Person hello() {
     Person person = personRepository.findById(1).get();
     return person;
   }
