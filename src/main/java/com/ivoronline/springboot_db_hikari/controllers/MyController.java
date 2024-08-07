@@ -10,8 +10,7 @@ import org.springframework.web.bind.annotation.RestController;
 public class MyController {
 
   //PROPERTIES
-  @Autowired
-  PersonRepository personRepository;
+  @Autowired PersonRepository personRepository;
 
   //================================================================
   // FIND PERSON BY ID
